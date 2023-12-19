@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * @author Manuel David Ayala Reina
+ */
 
 // Array asociativo para festivos en Córdoba, España
 $cordobaHolidays = array(

@@ -1,0 +1,108 @@
+:root {
+  --currentDayColor: #66ccff;
+  --nationalHolidayColor: #ff6666;
+  --communityHolidayColor: #99ff99;
+  --localHolidayColor: #ffb366;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background-color: #f0f0f0;
+  border: 1px solid black;
+}
+
+/* Añade estilos según tus necesidades */
+
+header {
+  background-color: #66ccff;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+#divformularios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+form {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-left: 100px auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form select,
+.botonverde {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.botonverde {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.botonverde:hover {
+  background-color: #45a049;
+}
+
+.calendar {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+}
+#cerrar-sesion {
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#cerrar-sesion:hover {
+  text-decoration: underline;
+  color: #990000;
+}
+#divtareas{
+  margin: 20px;
+}
+.botonEliminar {
+  background-color: #ff3333 !important;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.botonEliminar:hover {
+  background-color: #cc0000 !important;
+}
